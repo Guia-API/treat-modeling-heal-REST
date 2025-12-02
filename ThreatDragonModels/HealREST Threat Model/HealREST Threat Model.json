@@ -1,0 +1,30 @@
+{
+  "version": "2.5.0",
+  "summary": {
+    "title": "HealREST Threat Model",
+    "owner": "Eduardo Carrera Colorado",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Aneth Michelle Tamariz Moreno."
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.5.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Jorge Octavio Ocharán Hernández, Juan Carlos Pérez Arriaga.",
+    "threatTop": 0
+  }
+}
