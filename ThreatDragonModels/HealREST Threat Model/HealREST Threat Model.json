@@ -510,6 +510,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -593,7 +594,6 @@
               ]
             },
             "id": "562c8874-ca4b-4d78-99e6-a4849c8ea87b",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Heal REST API",
@@ -620,7 +620,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Base de datos"
+                "text": "Base de datos Clínica"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -633,6 +633,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -716,10 +717,9 @@
               ]
             },
             "id": "27cedf7d-a229-46c5-afa4-f07957f96b17",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
-              "name": "Base de datos",
+              "name": "Base de datos Clínica",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -731,6 +731,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
